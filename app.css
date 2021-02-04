@@ -2,10 +2,6 @@ body {
     background-color: #FCF8EC;
 }
 
-img {
-    max-width: 100%;
-}
-
 li {
     list-style: none;
 }
@@ -42,6 +38,10 @@ ul {
     position: relative;
 }
 
+.hero img {
+    width: 100%;
+}
+
 .hero--txt {
     font-family: ivypresto-display, serif;
     position: absolute;
@@ -54,10 +54,7 @@ ul {
     width: 34rem;
     font-weight: 600;
     text-align: right;
-}
-
-.hero img {
-    box-shadow: 0px 6px 6px #00000030;
+    text-shadow: 0px 3px 9px #00000030;
 }
 
 /* HOME CONTENT */
